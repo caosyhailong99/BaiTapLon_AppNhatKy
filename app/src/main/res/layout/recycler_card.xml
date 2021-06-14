@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="3"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/recTieuDe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textStyle="bold"
+            android:textSize="25sp"/>
+        <TextView
+            android:id="@+id/recNgayViet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ngày viết"
+            />
+        <TextView
+            android:id="@+id/recGioViet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Giờ viết"
+            />
+        <TextView
+            android:id="@+id/recNoiDung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="2">
+
+        <Button
+            android:id="@+id/nutSua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sửa"
+            android:textAllCaps="false"
+            android:layout_gravity="center"/>
+        <Button
+            android:id="@+id/nutXoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Xóa"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "937679755514",
+    "project_id": "appdangky-btl",
+    "storage_bucket": "appdangky-btl.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:937679755514:android:84e8fdebc9514e37219143",
+        "android_client_info": {
+          "package_name": "com.cshl.hoc.baitaplon_appnhatky"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "937679755514-16mf4beguge0hc5244r3pamt6mmnfc9g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSNMWM8_DDnedSiYjXzIVKbkLkMd3H27c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "937679755514-16mf4beguge0hc5244r3pamt6mmnfc9g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
